@@ -1,18 +1,54 @@
-.calc {
-    background-color: green;
-    width: 300px;
+#whole{
+    margin-left: 30%;
+    margin-top: 10%    
 }
 
-#equal {
-    text-align: right;
-    border: 3px solid white;
-    background-color: green;
-    margin-left: 90%;
-    font-size: 50px;
-}
+.calc {
+display: flex;
+justify-content: space-evenly;
+background-color: green;
+font-size: 40px;
+width: 14.9em;
+}  
 
 #display {
     border: 2px solid green;
     background-color: white;
-    padding: 35px;
+    padding: 30px;
+    width: 532px; 
 }
+
+/* .row0 {
+display: flex;
+justify-content: space-evenly;
+background-color: green;
+font-size: 50px;
+width: 14.9em;
+
+}
+
+
+.row1 {
+display: flex;
+justify-content: space-evenly
+
+
+}
+
+.row2 {
+display: flex;
+justify-content: space-evenly
+   
+}
+
+.row3 {
+display: flex;
+justify-content: space-evenly
+f     
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-evenly
+    
+}  */
