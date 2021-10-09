@@ -17,5 +17,18 @@ color: white
     border: 2px solid green;
     background-color: white;
     padding: 30px;
-    width: 336px; 
+    width: 336px;
+    font-size: 20px; 
+}
+
+.row1, .row2, .row3, .row4 {
+    border-right: 1px solid lightgreen;
+    width: 100%;
+}
+
+.row1 div, .row2 div, .row3 div, .row4 div {
+    border-bottom: 1px solid lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

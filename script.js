@@ -77,9 +77,6 @@ buttondivi.addEventListener('click', ( event ) => {
     display.innerText += buttondivide.innerText
 })
 
-
-
-
 buttonmin.addEventListener('click', ( event ) => {
     display.innerText += buttonminus.innerText
 })
@@ -88,6 +85,13 @@ buttonmulti.addEventListener('click', ( event ) => {
     display.innerText += buttonmul.innerText
 })
 
-buttonequal.addEventListener('click', ( event ) => {
-    display.innerText += equal.innerText
+buttonequal.addEventListener('click', ( equals ) => {
+})
+
+
+let equals = document.getElementById('equal')
+
+equals.addEventListener('click', () => {
+  display.innerText =  eval(display.innerText)
+
 })
